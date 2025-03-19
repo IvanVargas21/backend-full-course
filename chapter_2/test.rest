@@ -1,0 +1,8 @@
+### Test GET /WEBSITE
+GET http://localhost:1213/
+
+### Test GET /dashboard WEBSITE
+GET http://localhost:1213/dashboard
+
+### Test GET /api/data API  ENDPOINT
+GET http://localhost:1213/api/data
