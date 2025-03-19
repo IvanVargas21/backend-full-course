@@ -1,4 +1,5 @@
 ### Test GET /WEBSITE
+// Each request must be separated by ###
 GET http://localhost:1213/
 
 ### Test GET /dashboard WEBSITE
@@ -6,3 +7,20 @@ GET http://localhost:1213/dashboard
 
 ### Test GET /api/data API  ENDPOINT
 GET http://localhost:1213/api/data
+
+
+### DATA ENDPOINT FOR ADDING A USER
+POST http://localhost:1213/api/data
+Content-Type: application/json
+
+{
+    "name": "ian"
+}
+
+### DELETE DATA FROM ENDPOINT
+DELETE http://localhost:1213/api/data
+Content-Type: application/json
+
+{
+    "name": "ian"
+}
